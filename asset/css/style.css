@@ -117,12 +117,13 @@ a {
     height: 244px;
     border-radius: 12px;
     background: #FFF;
+    padding-bottom: 28px;
+    padding-top: 6px;
 }
 
 .hero .course .course-item {
     display: flex;
     align-items: end;
-
 }
 
 .hero .course .course-item .icon {
@@ -167,13 +168,13 @@ a {
     line-height: 1.66;
 }
 
-.hero .hero-infor .acction {
+.hero .hero-infor .action {
     display: flex;
     margin-top: 38px;
     align-items: center;
 }
 
-.hero .hero-infor .acction .btn-actions {
+.hero .hero-infor .action .btn-actions {
     display: flex;
     display: inline-block;
     height: 64px;
@@ -184,14 +185,14 @@ a {
     font-weight: 600;
 }
 
-.hero .hero-infor .acction .youtube-btn {
+.hero .hero-infor .action .youtube-btn {
     display: inline-block;
     margin-left: 28px;
     margin-right: 14px;
     margin-bottom: -20px;
 }
 
-.hero .hero-infor .acction>.desc {
+.hero .hero-infor .action>.desc {
     color: #171100;
     font-size: 1.8rem;
     font-weight: 600;
@@ -228,3 +229,442 @@ a {
 }
 
 /* =================================== Course =================================== */
+
+.course .content {
+    padding-top: 200px;
+}
+
+.course .content .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.course .title .sub-title {
+    color: #171100;
+    font-family: "Sen", sans-serif;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.26;
+    letter-spacing: -0.76px;
+}
+
+.course .title .desc {
+    margin-top: 16px;
+    width: 458px;
+    color: #5F5B53;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66;
+}
+
+.course .content .row .action {
+    display: flex;
+}
+
+.course .content .row .action>a {
+    display: inline-block;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    color: #FFB900;
+    border: 2px solid #FFB900;
+    line-height: 18px;
+    border-radius: 50%;
+    margin-left: 18px;
+}
+
+.course .content .row .action>a:hover {
+    color: #FFF;
+    background-color: #FFB900;
+}
+
+.course .course-row {
+    display: flex;
+    gap: 30px;
+    margin-top: 55px;
+}
+
+.course .course-row .course-item {
+    border: 1px solid #E2DFDA;
+    border-radius: 12px;
+}
+
+.course .course-row .course-item .padding-name {
+    padding: 16px 22px 22px 22px;
+}
+
+.course .course-row .course-item>img {
+    width: 100%;
+    height: 278px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+.course>.course-row>.course-item>div {
+    padding: 16px 22px 22px 22px;
+}
+
+.course .course-row .row-star {
+    display: flex;
+    align-items: center;
+}
+
+.course .course-row .row-star .star-desc {
+    color: #FEA31B;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.course .course-row .name-course {
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66;
+    margin-right: auto;
+}
+
+.course .course-row .desc {
+    margin-top: 6px;
+    color: #5F5B53;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.85;
+}
+
+.course .course-row .monney {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.course .course-row .monney .monney-number {
+    margin-right: 114px;
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66;
+}
+
+.course .course-row .monney .monney-btn {
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+/* =================================== Comment =================================== */
+
+.comment {
+    margin-top: 200px;
+    background-color: #2E2100;
+    padding-top: 96px;
+}
+
+.comment .content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 96px;
+}
+
+.comment .infor>img {
+    width: 72px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.comment .infor .name {
+    margin-top: 18px;
+    color: #F7F7F7;
+    font-family: "Sen", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.41;
+}
+
+.comment .infor .name-course {
+    margin-top: 4px;
+    margin-bottom: 28px;
+    color: #BFBCB2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+}
+
+.comment .content .courser-comment {
+    width: 740px;
+    color: #FFF;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.53;
+}
+
+.comment .content .comment-student {
+    position: relative;
+}
+
+.comment .content .comment-student>img {
+    position: absolute;
+    top: -29px;
+    left: -29px;
+}
+
+/* =================================== Review =================================== */
+
+.review .content {
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review .images {
+    width: 570px;
+    height: 440px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review .images>img {
+    width: 270px;
+    height: 405px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.review .images>img:first-child {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.review .images>img:last-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.review .review-title {
+    margin-top: 52px;
+    width: 470px;
+}
+
+.review .review-title .sub-title {
+    color: #171100;
+    font-family: "Sen", sans-serif;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.26;
+    letter-spacing: -0.76px;
+    margin-bottom: 16px;
+}
+
+.review .review-title .desc {
+    color: #5F5B53;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-bottom: 16px;
+}
+
+.review .review-title .year-course {
+    color: #5F5B53;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-bottom: 32px;
+}
+
+.review>.content>img{
+    width: 470px; 
+    height: 440px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* =================================== Blog =================================== */
+
+.blog {
+    margin-top: 200px;
+    padding-top: 96px;
+    background-color: #FFFCF4;
+    padding-bottom: 96px;
+}
+
+.blog .content .header-blog .heading {
+    color: #130606;
+    font-family: "Sen", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.26;
+    text-align: center;
+    letter-spacing: -0.76px;
+}
+
+.blog .content .header-blog .desc {
+    width: 448px;
+    color: #696262;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.blog .blog-row {
+    margin-top: 55px;
+    display: flex;
+    gap: 30px;
+}
+
+.blog .blog-row .blog-item {
+    flex: 1;
+    height: 487px;
+    border: 1px solid #E2DFDA;
+    border-radius: 12px;
+    background-color: #FFF;
+}
+
+.blog .blog-row .blog-item>img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+    margin-bottom: 20px;
+}
+
+.blog .blog-row .blog-item .time {
+    margin-left: 10px;
+    position: relative;
+    color: #5F5B53;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+    margin-bottom: 25px;
+}
+
+.blog .blog-row .blog-item .time::after {
+    position: absolute;
+    top: 9px;
+    left: -11px;
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: #FFB900;
+    border-radius: 50%;
+}
+
+.blog .blog-row .blog-item .blog-desc {
+    position: relative;
+    color: #171100;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+    margin-bottom: 12px;
+}
+
+.blog .blog-row .blog-item .blog-desc::after {
+    position: absolute;
+    top: -13px;
+    left: 0;
+    content: "";
+    width: 160px;
+    height: 1px;
+    border-radius: 0.5px;
+    background: #E2DFDA;
+}
+
+.blog-btn {
+    display: inline-block;
+    line-height: 30px;
+}
+
+.blog .padding-desc {
+    padding: 20px 20px 28px 20px;
+}
+
+.dot-blog {
+    padding-top: 38px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* =================================== Footer =================================== */
+
+.footer {
+    background-color: #2E2100;
+}
+
+.footer .content {
+    padding-top: 96px;
+}
+
+.footer .row-footer {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #59554B;
+    padding-bottom: 38px;
+}
+
+.footer .row-footer .social .desc {
+    width: 287px;
+    color: #BFBCB2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+    margin: 18px 0;
+}
+
+.footer .row-footer .heading-list {
+    position: relative;
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+    margin-bottom: 43px;
+}
+
+.footer .row-footer .heading-list::after {
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+    content: "";
+    width: 130px;
+    height: 1px;
+    background: #59554B;
+}
+
+
+.footer .row-footer a {
+    margin-top: 12px;
+    color: #BFBCB2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+}
+
+.footer .row-footer>.address>a {
+    display: block;
+}
+
+.footer .row-footer>.address {
+    width: 231px;
+}
+
+.footer .row-footer>.address strong {
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.85;
+}
+
+.footer .copy-right {
+    padding: 28px 0;
+    color: #807D74;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+}
